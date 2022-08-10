@@ -31,7 +31,7 @@ app.get("/", (req, res) => {
 				<h3>This page was open ${ i++ } times.</hh3>
 				<h4>Up-time is ${ timeMin } minutes.</h4>
 				<p>String data:<br/> ${ dataString }</p>
-				<a href="reset"> RESET UP-TIME </a>
+				<a href="reset"> RESET UP-TIME... </a>
 			</div>
 		  </body>
 		</html>`
